@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enroll Now</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Enroll at BrightLearn</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact</a>
+            <a href="enroll.html">Enroll</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Enrollment Form</h2>
+        <form onsubmit="return enrollUser()">
+            <input type="text" id="name" placeholder="Full Name" required><br>
+            <input type="email" id="email" placeholder="Email" required><br>
+            <button type="submit">Enroll</button>
+        </form>
+        <p id="response"></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 BrightLearn</p>
+    </footer>
+</body>
+</html>
